@@ -1,0 +1,13 @@
+name: Convert temperature celsius and Fahrenheit
+on:
+  workflow_dispatch:
+  
+jobs:
+  convert-temperature:
+    name: Converting Temperature
+    runs-on: ubuntu-latest
+    steps:
+      - uses: tiagoalmeidadarosa/GithubActionDotNetSample@v1.0.0
+        with:
+          value: 15
+          operation: 'CelsiusToFahrenheit'
