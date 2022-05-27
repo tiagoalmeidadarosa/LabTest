@@ -1,4 +1,4 @@
-name: Convert temperature celsius and Fahrenheit
+name: Convert temperature Celsius and Fahrenheit
 on:
   workflow_dispatch:
   
