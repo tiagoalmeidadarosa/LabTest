@@ -7,7 +7,7 @@ jobs:
     name: Converting Temperature
     runs-on: ubuntu-latest
     steps:
-      - uses: tiagoalmeidadarosa/GithubActionDotNetSample@v1.0.0
+      - uses: tiagoalmeidadarosa/GithubActionDotNetSample@v1.0.1
         with:
           value: 15
-          operation: 'CelsiusToFahrenheit'
+          operation: 'Sum'
